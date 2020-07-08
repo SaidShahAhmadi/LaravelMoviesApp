@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.spinner {
+    position: absolute;
+}
+nav ul {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* .popular-movies:hover {
+    transform: scale(1.01);
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2),
+        0 1px 15px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    color: black;
+} */
