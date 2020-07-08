@@ -29,7 +29,7 @@ class MoviesController extends Controller
 
         $genres= Http::withToken(config('services.tmdb.token'))
         ->get('https://api.themoviedb.org/3/genre/movie/list')
-        ->json()["genres"];
+        ->json();
 
         // View Model 
         $viewModel = new MoviesViewModel(
